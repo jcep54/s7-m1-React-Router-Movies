@@ -7,10 +7,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // You'll need to wrap <App /> for routing to work
 root.render(
-  <React.StrictMode>
-    <BrowserRouter>
+  <BrowserRouter>
       <App />
-    </BrowserRouter>
     
-  </React.StrictMode>
+  </BrowserRouter>
 );
